@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+  }
+  
+  input,
+  button {
+    appearance: none;
+    background: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+  }
+  
+  .App {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  form {
+      display: block;
+      position: relative;
+  }
+
+  form .form-inner h2 {
+    color: rgb(77, 77, 77);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .form-inner .form-group label {
+    display:block;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width: 200px;
+  }
+
+ .Button {
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #ff80bf ;
+    border: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 550;
+  }
+
+  .Forgot {
+    text-align: right;
+    margin-top: 10px;
+    color: #888;
+    font-size: 17px;
+  }
